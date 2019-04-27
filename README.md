@@ -85,7 +85,7 @@ High level stuff planned for Q4 2018 (October - Dec):
 
 | Feature          | Status                              | Docs         | Issue          |
 |------------------|-------------------------------------|--------------|----------------|
-| fab speed-dial   |            Not started, not planned |           -  |   [#860][0860] |
+| fab speed-dial   |            PR in progress           |           -  |   [#860][0860] |
 | fab toolbar      |            Not started, not planned |           -  |              - |
 | bottom-nav       |            Not started, not planned |           -  |   [#408][0408] |
 

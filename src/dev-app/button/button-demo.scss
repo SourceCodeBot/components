@@ -23,3 +23,10 @@
     display: block;
   }
 }
+
+.demo-section-fab-dial {
+  min-height: 10vh;
+  mat-form-field {
+    margin: 0.5rem 1rem;
+  }
+}

@@ -7,6 +7,7 @@
  */
 
 import {Component} from '@angular/core';
+import {ThemePalette} from '@angular/material';
 
 
 @Component({
@@ -19,4 +20,15 @@ export class ButtonDemo {
   isDisabled: boolean = false;
   clickCounter: number = 0;
   toggleDisable: boolean = false;
+
+  _colorFab: ThemePalette = 'primary';
+  get colorFab(): ThemePalette {
+    return this._colorFab;
+  }
+  set colorFab(value: ThemePalette) {
+    this._colorFab = value;
+  }
+  disableFab: boolean = false;
+  directionFab: 'horizontal'|'vertical' = 'vertical';
+  placementFab: 'top'|'bottom' = 'bottom';
 }

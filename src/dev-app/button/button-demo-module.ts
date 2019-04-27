@@ -7,14 +7,28 @@
  */
 
 import {NgModule} from '@angular/core';
-import {MatButtonModule, MatIconModule} from '@angular/material';
+import {FormsModule} from '@angular/forms';
+import {
+  MatButtonModule,
+  MatFormFieldModule,
+  MatIconModule,
+  MatInputModule,
+  MatSelectModule,
+  MatSlideToggleModule
+} from '@angular/material';
 import {RouterModule} from '@angular/router';
+
 import {ButtonDemo} from './button-demo';
 
 @NgModule({
   imports: [
     MatButtonModule,
     MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    FormsModule,
+    MatSlideToggleModule,
     RouterModule.forChild([{path: '', component: ButtonDemo}]),
   ],
   declarations: [ButtonDemo],
